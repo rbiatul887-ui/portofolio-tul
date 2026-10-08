@@ -1,0 +1,83 @@
+* {
+margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     border: none;
+     outline: none;
+     scroll-behavior: smooth;
+     font-family:
+         system-ui,
+         -apple-system,
+         BlinkMacSystemFont,
+         "Segoe UI",
+         Roboto,
+         Oxygen,
+         Ubuntu,
+         Cantarell,
+         "Open Sans",
+         "Helvetica Neue",
+         sans-serif;
+ }
+ :root {
+     --bg-color: #fff;
+     --snd-bg-color: #d5fdf9;
+     --text-color: #000;
+     --main-color: #007f73;
+ }
+ html {
+     font-size: 62%;
+     overflow-x: hidden;
+ }
+ body {
+     background: var(--bg-color);
+     color: var(--text-color);
+ }
+ section {
+     min-height: 100vh;
+     padding: 10rem 9% 2rem;
+ }
+ .header {
+     position: fixed;
+     width: 100%;
+     top: 0;
+     right: 0;
+     z-index: 1000;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 2rem 5%;
+     background: var(--main-color);
+     backdrop-filter: blur(10px);
+     transition: all 0.5s ease;
+ }
+ 
+ .logo{
+     fant-size:3rem;
+     color: var(--bg-color);
+     fant-weight: 700;
+     cursor: pointer;
+     transtion: 0,3 ease;
+ }
+ 
+ .logo :hover{
+    transfro: scale(1.25);
+ }
+ 
+ .novbar a{
+     font-size:var(--bg -color);
+     color:var(--bg-color);
+     margin-left:4rem;
+     color:var(--bg-color);
+     transition: 0.3s ease;
+ }
+ font-weight: 700;
+ transition:0.3s ease;
+ 
+ 
+ .navbar a:hover,
+ 
+
+ #menu-icon
+ font-size:3.6rem
+ colsor: pointer;
